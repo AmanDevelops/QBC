@@ -357,7 +357,7 @@ def admin_analytics_data():
     )
 
     quizzes_over_time = [
-        {"date": date.strftime("%Y-%m-%d"), "count": count}
+        {"date": date, "count": count}
         for date, count in quizzes_over_time_data
     ]
 
